@@ -86,8 +86,7 @@ header ul{
     font-weight: bold;
     padding-left:50px;
 	font-size:0.8em;
-	margin-left:-50px;		
-	font-weight: bolder;	
+	margin-left:-50px;			
 }
 #filtres li:hover{
 	background-color: #0065FC;

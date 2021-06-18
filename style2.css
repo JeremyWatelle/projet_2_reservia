@@ -9,44 +9,218 @@ body{
 }
 ul {
     list-style: none;
+    padding-inline-start: 0px;
 }
-@media only screen and (min-width: 320px) and (max-width:700px)
+a{
+    color: inherit;
+	text-decoration: none;
+}
+.filtres li:hover{
+    background-color: #0065FC;
+    color: white;
+}
+.blue{
+    color:#0065FC;
+}
+.gris{
+    color: #E2E2E2;
+}
+h2{
+    font-size:1.2rem;
+}
+@media only screen and (min-width: 0px) and (max-width:700px)
 {
     body{
         width: 100%;
     }
     header{
-        
+        width:100%;
     }
-    .container{
-    }  
-    
-    #nav{
-        
+    .nav{
+        justify-content:space-between;
+    }
+    .nav img {
+        width:40%;
+    }
+    .nav li{
+        display:flex;
+        width:100%;
+        flex-direction: row;
+    }
+    .highlight{
+        float:right;
+        margin-top:-12%;
+        justify-content:flex-end;
+        color:#0065FC;
+    }
+    .nav a{
+        border-bottom: 2px solid rgb(194,185,185);
+    }
+    .container>p{
+        font-size:1rem;
+    }
+    h1{
+        font-size: 1.5rem;
+        font-weight:bold;
     }
     .gridform{
-
+        display:flex;
+        justify-content:center;
     }
-    .grid{
-
+    .gridform>div>i{
+        background-color:#F2F2F2;
+        padding:10px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
     }
-    .inline-list{
-        display: inline-block;
+    input{
+        padding:10px 30px;
+        border:2px solid #F2F2F2;
     }
-    .grid1{
-
+    button{
+        padding:10px;
+        border-radius: 10px;
+        background-color:#0065FC;
+        overflow:hidden;
+        margin-left:-5px;
+    }
+    .filtre{
+        font-size: 0.85rem;
+        font-weight:bold;
+    }
+    .filtre li{
+        display:flex;
+        align-items: center;
+        border: 2px solid #E2E2E2;
+        border-radius:20px;
+        margin-bottom:3%;
+        height:30px;
+        width:50%;
+       
+    }
+    .filtre p{
+        margin-left:5%;
+    }
+    .filtre i{
+        padding:10px;
+        border-radius:20px;
+        color:#0065FC;
+        background-color:#DEebff ;
+        margin-left:-5px;
+        overflow:hidden;
+    }
+    .info{
+        font-size:1rem;
+    }
+    .info i{
+        color:#0065FC;
+        font-size: 0.7rem;
+        border:2px solid #F2F2F2;
+        border-radius:10px;
+        padding:3px 6px ;
     }
     #populaire{
-
+        background-color: #F2F2F2;
+        padding-left:20px;
+        margin-left:-20px;
+        padding-right:20px;
+        margin-right:-10px;
+        height:650px;
+        padding-top:30px;
+    }
+    #populaire>i{
+        float:right;
+        margin-top: -12%;
+    }
+    .pop i{
+        flex-direction: row;
+    }
+    .pop{
+        display:flex;
+        align-items:center;
+        margin-bottom:40px;
+        height:150px;   
+        border-radius:20px;
+        font-size:0.9rem;
+        box-shadow: 4px 4px 4px rgb(153, 153, 153);
+        width:100%;
+        background-color:#fff;
+    }
+    .pop img{
+        position: relative;
+        margin-left:5px;
+        width:45%;
+        height:140px;
+        object-fit: cover;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .pop div{
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top:-5%;
+    }
+    .pop p{
+        margin-bottom:25%;
     }
     #hebergement{
-
+        width:98%;
     }
-    .gridactivite{
-
+    .contain{
+        font-size:0.8rem;
+        border-radius:20px;
+        margin-bottom:5%;
+        background-color:white; 
+        height:230px;
+        line-height:10px;
+        padding:5px 5px 5px 5px;
+        box-shadow: 4px 4px 4px rgb(153, 153, 153);
+    }
+    .hbg{
+        margin-left: 10px;
+    }
+    #hebergement img{
+        width: 100%;
+        height:150px;
+        object-fit: cover;
+        border-top-left-radius:20px;
+        border-top-right-radius: 20px;
+    }
+    .activite{
+        font-size:0.8rem;
+        border-radius:20px;
+        margin-bottom:5%;
+        width:95%;
+        background-color:white; 
+        height:190px;
+        box-shadow: 4px 4px 4px rgb(153, 153, 153);
+    }
+    .activite h3{
+        margin-left:20px;
+        margin-top:10px;
+    }
+    .activite img{
+        width: 100%;
+        height:150px;
+        object-fit: cover;
+        border-top-left-radius:20px;
+        border-top-right-radius: 20px;
     }
     .gridfooter{
-        
+        background-color: #F2F2F2;
+        padding-top: 20px;
+        padding-left:20px;
+        margin-left:-20px;
+        padding-right:20px;
+        margin-right:-10px;
+        padding-bottom:10px;
+        margin-bottom:-8px;
+    }
+    .gridfooter li{
+        line-height:40px;
+    }
+    .gridfooter ul{
+        margin-top:-10px;
     }
 
 }
