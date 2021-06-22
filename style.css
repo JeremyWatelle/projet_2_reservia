@@ -346,7 +346,7 @@ footer li{
     }
     .container{
         
-       flex-direction: row-reverse;
+       flex-direction: column-reverse;
     }
     .sous-menu{
         display:flex;
