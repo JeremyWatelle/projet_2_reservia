@@ -97,7 +97,10 @@ h3{
         border:2px solid #F2F2F2;
     }
     button{
-        padding:10px;
+        height:39px;
+        width:39px;
+        border:none;
+        color:#fff;
         border-radius: 10px;
         background-color:#0065FC;
         overflow:hidden;
@@ -299,7 +302,10 @@ h3{
         border:2px solid #F2F2F2;
     }
     button{
-        padding:10px;
+        height:39px;
+        width:39px;
+        border:none;
+        color:#fff;
         border-radius: 10px;
         background-color:#0065FC;
         overflow:hidden;
@@ -529,8 +535,10 @@ h3{
         border:2px solid #F2F2F2;
     }
     button{
-        padding:10px;
-        border-radius: 10px;
+        border: none;
+        height: 39px;
+        color: white;
+        border-radius: 0 10px 10px 0px;
         background-color:#0065FC;
         overflow:hidden;
         margin-left:-5px;
@@ -728,7 +736,7 @@ h3{
         justify-content: space-around;
         background-color: #F2F2F2;
         margin-left:-20px;
-        margin-right:-20px;
+        margin-right:-40px;
         margin-bottom: -10px;
     }
 
