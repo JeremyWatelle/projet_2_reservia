@@ -245,7 +245,7 @@ h3{
     }
 
 }
-@media only screen and (min-width: 701px) and (max-width:1200px)
+@media only screen and (min-width: 701px) and (max-width:1260px)
 {
     body{
         width:auto;
@@ -472,7 +472,7 @@ h3{
         justify-content: space-evenly;
     }
 }
-@media only screen and (min-width: 1201px) and (max-width: 2560px)
+@media only screen and (min-width: 1261px) and (max-width: 2560px)
 {
     body{
     width: 100%;
@@ -650,6 +650,7 @@ h3{
     }
     .ppl{
         margin-left: 20px;
+        margin-top:-10px;
     }
     .ppl i{
         margin-top:15px;
