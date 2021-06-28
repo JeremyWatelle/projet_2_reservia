@@ -404,9 +404,9 @@ h3{
     #hebergement{
         width:100%;
         padding-top:1%;
-        padding-left:1%;
-        padding-right:1%;
-        margin-left:-1%;
+        padding-left:2%;
+        padding-right:2%;
+        margin-left:-3%;
         background-color: #F2F2F2;
     }
     .gridhebergement{
@@ -443,7 +443,7 @@ h3{
         margin-top:-2%;
         padding-left:1%;
         margin-right:-1%;
-        margin-left:-1%;
+        margin-left:-3%;
         background-color: #F2F2F2;
     }
     .gridactivite{
