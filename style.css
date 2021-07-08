@@ -44,8 +44,9 @@ h3{
     .nav{
         justify-content:space-between;
     }
-    .nav :hover{
+    .nav a:hover{
         border-bottom: 2px solid #0065FC;
+        margin-bottom: -2px;
     }
     .nav img {
         width:30%; 
@@ -59,6 +60,9 @@ h3{
         padding-right: 8%;
         padding-top:10%;
         justify-content:space-around;
+    }
+    .menu a{
+        padding:10px 0;
     }
     .nav li{
         display:flex;
