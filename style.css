@@ -19,7 +19,6 @@ a{
     color: white;
 }
 .nav a:hover{
-    border-top: 2px solid #0065FC;
 	color: #0065FC;	
 }
 .blue{
@@ -46,7 +45,7 @@ h3{
         justify-content:space-between;
     }
     .nav :hover{
-        border-top:none;
+        border-bottom: 2px solid #0065FC;
     }
     .nav img {
         width:30%; 
@@ -291,6 +290,7 @@ h3{
     }
     .nav a:hover{
         padding-top:29px;
+        border-top: 2px solid #0065FC;
     }
     h1{
         font-size: 1.5rem;
@@ -528,6 +528,7 @@ h3{
     }
     .nav a:hover{
         padding-top:15px;
+        border-top: 2px solid #0065FC;
     }
     h1{
         font-size: 1.5rem;
